@@ -6,7 +6,7 @@ metadata:
 data:
   AQUA_HEALTH_MONITOR_ENABLED: "true"
   AQUA_INSTALL_PATH: "/var/lib/aquasec"
-  AQUA_SERVER: "aqua-gateway:8443"
+  AQUA_SERVER: "aqua-lb:443"
   RESTART_CONTAINERS: "no"
   AQUA_LOGICAL_NAME: ""
   # AQUA_PUBLIC_KEY: "/opt/aquasec/ssl/aqua_enforcer.crt"
