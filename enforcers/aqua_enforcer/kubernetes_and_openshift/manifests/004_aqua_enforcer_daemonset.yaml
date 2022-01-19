@@ -34,7 +34,7 @@ spec:
         - configMapRef:
             name: aqua-csp-enforcer
         image: registry.aquasec.com/enforcer:6.5
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
 #        resources:
 #          limits:
 #            cpu: 1000m
